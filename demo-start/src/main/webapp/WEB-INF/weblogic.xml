@@ -14,6 +14,11 @@
 		<wls:prefer-application-packages>
 			<wls:package-name>org.apache.commons.io.*</wls:package-name>
 			<wls:package-name>org.apache.xmlbeans.*</wls:package-name>
+			<wls:package-name>org.openxmlformats.schemas.spreadsheetml.x2006.main.*</wls:package-name>
 		</wls:prefer-application-packages>
+        <wls:prefer-application-resources>
+            <wls:resource-name>schemaorg_apache_xmlbeans/*</wls:resource-name>
+        </wls:prefer-application-resources>
 	</container-descriptor>
+
 </wls:weblogic-web-app>
